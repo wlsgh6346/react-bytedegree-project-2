@@ -49,7 +49,7 @@ const DarkBackground = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    z-index: 100;
     animation-duration: 0.25s;
     animation-timing-function: ease-out;
     animation-name: ${fadeIn};
